@@ -1,0 +1,265 @@
+body {
+    background-image: url(./wallpaper.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar {
+    background-color: #1E1F2A !important;
+    height: 39px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.btn-primary {
+    background-color: #1E1F2A !important;
+    background-image:url(./start\ menu.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -17%;
+    height: 20px;
+    width: 20px;
+    padding: 24px;
+    padding-bottom: 18px ;
+}
+.btn-primary:hover {
+    background-image:url(./start\ menu\ hover.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: #35374b !important;
+}
+:root {
+    --bs-secondary-color: #dadada
+    --bs-body-font-family: var(--bs-font-sans-serif)
+}
+.form-control {
+    background-image: url(magnifier.png);
+    background-repeat: no-repeat;
+    background-size: 29px;
+    background-position: 5px;
+    background-color: #333333;
+    color: #dadada !important;
+    margin-top: -8px;
+    padding: 7.2px;
+    padding-right: 68px;
+    padding-left: 39px;
+    border-radius: 0%;
+    font-size: 14.8px;
+    border-color: #5C5C5C;
+    transition: none;
+    user-select: none;
+}
+.form-control:hover:not(:focus) {
+    background-color: #3f3f3f;
+    border-color: #777777 !important;
+    border-width: 2px;
+    margin-top: -8px;
+    padding: 6.2px;
+    padding-right: 66px;
+    padding-left: 39px;
+    box-sizing: border-box;
+}
+.form-control:focus {
+    color: black !important;
+    border-color: #0078D7;
+    border-width: 2px;
+    margin-top: -8px;
+    padding: 6.2px;
+    padding-right: 66px;
+    padding-left: 39px;
+    background-image: url(magnifierfocus.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 7px;
+    box-shadow: 0 0 0 0;
+}
+.vscode {
+    background-image: url(./vscode.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -8px;
+    margin-left: 3px;
+    height: 40px;
+    width: 48px;
+}
+.vscode:hover {
+    background-color: #333333;
+}
+.brave {
+    background-image: url(./brave.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0%;
+    margin-top: -8px;
+    margin-left: 1px;
+    height: 40px;
+    width: 48px;
+    transition: none;
+}
+.brave:hover {
+    background-color: #333333;
+}
+.explorer {
+    background-image: url(./windowsexplorer.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0%;
+    margin-top: -8px;
+    margin-left: 1px;
+    height: 40px;
+    width: 48px;
+    transition: none;
+}
+.explorer:hover {
+    background-color: #333333;
+}
+.spotify {
+    background-image: url(./spotify.png);
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0%;
+    margin-top: -8px;
+    margin-left: 1px;
+    height: 40px;
+    width: 48px;
+    transition: none;
+}
+.spotify:hover {
+    background-color: #333333;
+}
+.steam {
+    background-image: url(./steam.png);
+    background-size: 25.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 0%;
+    margin-top: -8px;
+    margin-left: 1px;
+    height: 40px;
+    width: 48px;
+    transition: none;
+}
+.steam:hover {
+    background-color: #333333;
+}
+.uparrow {
+    background-image: url(uparrow.png);
+    background-size: 35px;
+    background-position: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 39px;
+    width: 23px;
+    margin-right: 15.2%;
+}
+.uparrow:hover {
+    background-color: #35374b;
+}
+.wifi {
+    background-image: url(wifi.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 39px;
+    width: 23px;
+    margin-right: 13.4%;
+}
+.wifi:hover {
+    background-color: #35374b;
+}
+.sound {
+    background-image: url(sound.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 39px;
+    width: 23px;
+    margin-right: 11.6%;
+}
+.sound:hover {
+    background-color: #35374b;
+}
+.lang {
+    font-size: 13px;
+    padding: 5px;
+    padding-top: 10px;
+    color: #dadada;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 35px;
+    margin-right: 9%;
+    cursor: default;
+    user-select: none;
+}
+.lang:hover {
+    background-color: #35374b;
+}
+.tnd {
+    color: #dadada;
+    text-align: center;
+    font-size: 11.6px;
+    padding: 2px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 70px;
+    margin-right: 3.8%;
+    cursor: default;
+    user-select: none;
+}
+.tnd:hover {
+    background-color: #35374b;
+}
+.notification {
+    background-image: url(notification.png);
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 13px;
+    padding: 5px;
+    color: #dadada;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 41px;
+    margin-right: 0.9%;
+}
+.notification:hover {
+    background-color: #35374b !important;
+}
+.out {
+    background-image: url(line.png);
+    padding: 5px;
+    padding-left: 3px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 1px;
+    margin-right: -3px;
+}
+.out:hover {
+    background-color: #35374b !important;
+}
