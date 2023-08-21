@@ -7,7 +7,7 @@
 
 - ~~I Had a big help from Bootstrap in the development.~~ <br>I completely remade the code, making it shorter and without Bootstrap.
 
-- The live clock isn't working for now, someday i'll make it work (maybe).
+- The live clock and the date isn't working for now, someday i'll make it work (maybe).
 
 ## Project Image
 ![recreationscreenshot](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/61a4e3bc-c49e-44fb-902c-3b6608d32115)
