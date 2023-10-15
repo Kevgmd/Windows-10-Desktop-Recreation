@@ -11,4 +11,4 @@
 
 ## Project Image
 ![recreationscreenshot](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/61a4e3bc-c49e-44fb-902c-3b6608d32115)
-Real project image, not a random desktop screenshot from someone else.
+Real project image, not a random desktop screenshot from somewhere else.
