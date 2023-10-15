@@ -3,7 +3,7 @@
 
 - This project is an personal attempt of recreating the Microsoft Windows 10 desktop perfectly, made just for fun and to improve my proficiency at the programming languages used in the project (notice that the desktop it's non functional and only has the dark mode available).
 
-- This is my first little project while learning HTML and CSS, and i took almost 1 month to complete it, that's because i am still learning during all the process and after it all, so i hope my project isn't just a goofy code that somehow managed to work properly. 
+- This is my first little project while learning HTML and CSS, and i took almost 1 month to complete it, that's because i'm still learning during all the process and after it all, so i hope my project isn't just a goofy code that somehow managed to work properly. 
 
 - ~~I Had a big help from Bootstrap in the development.~~ <br>I completely remade the code, making it shorter and without Bootstrap.
 
