@@ -3,11 +3,11 @@
     text-decoration: none;
     list-style: none;
     user-select: none;
-    font-family: Segoe UI, Arial, Calibri, Roboto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
 }
 body {
-    background-image: url(./wallpaper.jpeg);
+    background-image: url(./img/wallpaper.jpeg);
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -38,19 +38,19 @@ body {
     background-color: #35374b;
 }
 .windows {
-    background-image: url(./start\ menu.png);
+    background-image: url(./img/start\ menu.png);
     background-size: 17px;
     height: 39px;
     width: 48px;
 }
 .windows:hover {
-    background-image: url(./start\ menu\ hover.png);
+    background-image: url(./img/start\ menu\ hover.png);
     background-size: 17px;
     height: 39px;
     width: 48px;
 }
 .searchbar {
-    background-image: url(./magnifier.png);
+    background-image: url(./img/magnifier.png);
     background-repeat: no-repeat;
     background-color: #333333;
     border: 1px solid #5c5c5c;
@@ -76,7 +76,7 @@ body {
     width: 242px;
 }
 .searchbar:focus {
-    background-image: url(./magnifierfocus.png);
+    background-image: url(./img/magnifierfocus.png);
     border-color: #0078d7;
     background-color: white;
     color: black;
@@ -85,45 +85,45 @@ body {
     width: 242px;
 }
 .vs{
-    background-image: url(./vscode.png);
+    background-image: url(./img/vscode.png);
     background-size: 25px;
     height: 39px;
     width: 49px;
     margin-left: 3px;
 }
 .brave {
-    background-image: url(./brave.png);
+    background-image: url(./img/brave.png);
     background-size: 25px;
     height: 39px;
     width: 48px;
 }
 .explorer {
-    background-image: url(./windowsexplorer.png);
+    background-image: url(./img/windowsexplorer.png);
     background-size: 25px;
     height: 39px;
     width: 49px;
 }
 .spotify {
-    background-image: url(./spotify.png);
+    background-image: url(./img/spotify.png);
     background-size: 25px;
     height: 39px;
     width: 49px;
 }
 .steam {
-    background-image: url(./steam.png);
+    background-image: url(./img/steam.png);
     background-size: 25px;
     height: 39px;
     width: 49px;
 }
 .line {
-    background-image: url(./line.png);
+    background-image: url(./img/line.png);
     background-position: left;
     background-size: 40px;
     height: 39px;
     width: 5px;
 }
 .notification {
-    background-image: url(./notification.png);
+    background-image: url(./img/notification.png);
     background-size: 35px;
     right: 13px;
     height: 40px;
@@ -132,9 +132,9 @@ body {
 .tnd {
     text-align: center;
     color: white;
-    font-size: 11.5px;
+    font-size: 12px;
     right: 53px;
-    height: 35px;
+    height: 37px;
     width: 70px;
     padding-top: 2px;
 }
@@ -148,21 +148,21 @@ body {
     width: 36px;
 }
 .wifi {
-    background-image: url(./wifi.png);
+    background-image: url(./img/wifi.png);
     background-size: 24px;
     right: 160px;
     height: 40px;
     width: 22px
 }
 .vol {
-    background-image: url(./sound.png);
+    background-image: url(./img/sound.png);
     background-size: 20px;
     right: 185px;
     height: 40px;
     width: 21px
 }
 .up {
-    background-image: url(./uparrow.png);
+    background-image: url(./img/uparrow.png);
     background-size: 35px;
     right: 208px;
     height: 40px;
