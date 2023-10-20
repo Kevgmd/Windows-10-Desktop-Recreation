@@ -6,22 +6,37 @@
     <title>Windows 10 Desktop by Kev</title>
     <link rel="stylesheet" href="desktop.css">
 </head>
-  <body>
-    <div class="navbar">
-      <div class="windows gen"></div>
-      <input class="searchbar type="text" placeholder="Search">
-      <div class="vs gen"></div>
-      <div class="brave gen"></div>
-      <div class="explorer gen"></div>
-      <div class="spotify gen"></div>
-      <div class="steam gen"></div>
-      <div class="line gen2"></div>
-      <div class="notification gen2"></div>
-      <div class="tnd gen2">20:00<br>18/08/2023</div>
-      <div class="lang gen2">ENG</div>
-      <div class="wifi gen2"></div>
-      <div class="vol gen2"></div>
-      <div class="up gen2"></div>
-    </div>
+  <body onclick="clear2()">
+    <div>
+      <div class="navbar">
+        <div class="windows gen"></div>
+        <input id="clear" class="searchbar type="text" spellcheck="false" placeholder="Search" onclick="onfocus()">
+        <div class="vs gen"></div>
+        <div class="github gen"></div>
+        <div class="explorer gen"></div>
+        <div class="line gen2"></div>
+        <div class="notification gen2"></div>
+        <div class="tnd gen2">20:00<br>18/08/2023</div>
+        <div class="lang gen2">ENG</div>
+        <div class="wifi gen2"></div>
+        <div class="vol gen2"></div>
+        <div class="up gen2"></div>
+      </div>
+    <script>
+      function clear1() {
+      var clearinput = document.getElementById("clear");
+      clearinput.value = "";
+      }
+      function clear2() {
+        var clickoff = document.getElementById("clear");  
+      if (clickoff.value !== "") {
+        clear1();
+      }
+      }
+      function onfocus() {
+        var focused = document.getElementById("clear")
+        focused.addEventListener("focus", clear2());
+      }
+    </script>
   </body>
 </html>

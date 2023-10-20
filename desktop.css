@@ -23,6 +23,7 @@ body {
 .gen {
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.1s;
 }
 .gen2 {
     background-repeat: no-repeat;
@@ -91,27 +92,15 @@ body {
     width: 49px;
     margin-left: 3px;
 }
-.brave {
-    background-image: url(./img/brave.png);
-    background-size: 25px;
+.github {
+    background-image: url(./img/github.png);
+    background-size: 31px;
     height: 39px;
     width: 48px;
 }
 .explorer {
     background-image: url(./img/windowsexplorer.png);
-    background-size: 25px;
-    height: 39px;
-    width: 49px;
-}
-.spotify {
-    background-image: url(./img/spotify.png);
-    background-size: 25px;
-    height: 39px;
-    width: 49px;
-}
-.steam {
-    background-image: url(./img/steam.png);
-    background-size: 25px;
+    background-size: 23px;
     height: 39px;
     width: 49px;
 }
