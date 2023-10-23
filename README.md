@@ -10,5 +10,5 @@
 - The live clock and the date isn't working for now, someday i'll make it work (maybe).
 
 ## Project Image
-![recreationscreenshot](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/61a4e3bc-c49e-44fb-902c-3b6608d32115)
+![desktop](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/e5685185-68e3-4181-8439-9983e47270db)
 Real project image, not a random desktop screenshot from somewhere else.
