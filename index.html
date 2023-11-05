@@ -22,27 +22,6 @@
         <div class="vol gen2"></div>
         <div class="up gen2"></div>
       </div>
-    <script>
-    document.body.addEventListener("mousedown", function(event) {
-    var clickoff = document.getElementById("clear");
-    if (event.target !== clickoff) {
-        clickoff.value = "";
-    }
-    })
-
-    var tnd = new Date();
-
-    var day = tnd.getDay();
-    var month = tnd.getMonth() + 1;
-    var year = tnd.getFullYear();
-    var hours = tnd.getHours();
-    var minutes = tnd.getMinutes();
-
-    var dnt = hours + ":" + minutes + "<br>" + day + "/" + month + "/" + year;
-    if (dnt.value = "1,2,3,4,5,6,7,8,9") {
-      dnt 
-    }
-    document.getElementById("time&date").innerHTML = dnt;
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
