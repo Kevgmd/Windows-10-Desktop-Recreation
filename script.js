@@ -15,8 +15,8 @@ document.body.addEventListener("mousedown", function(event) {
     var hours = tnd.getHours();
     var minutes = tnd.getMinutes();
 
-    var dnt = hours.toString().padStart(2, "0") + ":" + minutes + "<br>"
-     + day.toString().padStart(2, "0") + "/" + month.toString().padStart(2, "0") + "/" + year;
+    var dnt = hours.toString().padStart(2, "0") + ":" + minutes.toString().padEnd(2, "0") + "<br>"
+     + month.toString().padEnd(2, "0") + "/" +  day.toString().padStart(2, "0") + "/" + year;
 
     document.getElementById("time&date").innerHTML = dnt;
     }
