@@ -10,10 +10,6 @@
 - ~~The live clock and the date isn't working for now, someday i'll make it work (maybe).~~ <br> The time and date live clock is done and its completely functional now!
 
 - You can prank someone by pretending to be the Windows 10!
-
-![desktop](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/6e967251-07d0-4a54-950b-3039fd038c17)
-
 ## Project Image
-
-
+![desktop](https://github.com/Kevgmd/Windows-10-Desktop-Recreation/assets/140569159/6e967251-07d0-4a54-950b-3039fd038c17)
 Real project image, not a random desktop screenshot from somewhere else.
