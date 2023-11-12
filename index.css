@@ -112,8 +112,8 @@ body {
     width: 5px;
 }
 .notification {
-    background-image: url(./img/notification.png);
-    background-size: 35px;
+    background-image: url(./img/notification.svg);
+    background-size: 18px;
     right: 13px;
     height: 40px;
     width: 40px
@@ -137,23 +137,23 @@ body {
     height: 27px;
     width: 36px;
 }
-.wifi {
-    background-image: url(./img/wifi.png);
-    background-size: 24px;
+.ethernet {
+    background-image: url(./img/ethernet.svg);
+    background-size: 17px;
     right: 160px;
     height: 40px;
     width: 22px
 }
 .vol {
-    background-image: url(./img/sound.png);
-    background-size: 20px;
+    background-image: url(./img/sound.svg);
+    background-size: 17px;
     right: 185px;
     height: 40px;
     width: 21px
 }
 .up {
-    background-image: url(./img/uparrow.png);
-    background-size: 35px;
+    background-image: url(./img/uparrow.svg);
+    background-size: 13px;
     right: 208px;
     height: 40px;
     width: 23px
